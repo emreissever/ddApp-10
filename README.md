@@ -1,6 +1,6 @@
 # Sayısal Tasarım ve FPGA Uygulamaları Seti
 
-ddApp-10, temel Sayısal Tasarım konularına ilave olarak robotik nesnelerin interneti (IoT) konularının da FPGA üzerinde çeşitli projeler gerçekleştirilerek öğretilmesini hedefleyen sayısal tasarım uygulamaları setidir. Üzerinde Digilent firmasının Xilinx Artix-7 FPGA FPGA entegresini barındıran Basys3 kartını ihtiva eder.
+ddApp-10, temel Sayısal Tasarım konularına ilave olarak robotik nesnelerin interneti (IoT) konularının da FPGA üzerinde çeşitli projeler gerçekleştirilerek öğretilmesini hedefleyen sayısal tasarım uygulamaları setidir. Üzerinde Digilent firmasının Xilinx Artix-7 FPGA entegresini barındıran Basys3 kartını içerir.
 
 Satın almak veya fiyat teklifi için ürün linki : [Beti Elektronik - Elektrovadi](https://www.elektrovadi.com/urun/ddapp-10)
 
