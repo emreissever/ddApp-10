@@ -93,42 +93,42 @@ begin
 				elsif i_temp<"000000101000" then  --40
 					led<="000011111111";
 				elsif i_temp<"000000101101" then  --45
-                    led<="000111111111";
-                elsif i_temp<"000000110010" then  --50
-                    led<="001111111111";
-                elsif i_temp<"000000110111" then  --55
-                    led<="011111111111";
-                elsif i_temp<"000000111100" then  --60
-                    led<="111111111111";
+               led<="000111111111";
+            elsif i_temp<"000000110010" then  --50
+               led<="001111111111";
+            elsif i_temp<"000000110111" then  --55
+               led<="011111111111";
+            elsif i_temp<"000000111100" then  --60
+               led<="111111111111";
 				else 
 					led<="111111111111"; -- Farklı bir ölçümde bütün ledler yakılır. (Aynı zamanda hata tespiti olarak kullanılabilir.)
 				end if;			
 		end if;	
 			
 		-- Binary To BCD Algoritması Kullanıldı. (Double dabble Algoritması)
-        if i_temp<"000000001010" then -- <10
-        i_bcd:=i_temp;
-        elsif i_temp<"000000010100" then -- <20
-        i_bcd:=i_temp+6;
-        elsif i_temp<"000000011110" then -- <30
-        i_bcd:=i_temp+12;
-        elsif i_temp<"000000101000"then -- <40
-        i_bcd:=i_temp+18;
-        elsif i_temp<"000000110010"then -- <50
-        i_bcd:=i_temp+24;
-        elsif i_temp<"000000111100" then -- <60
-        i_bcd:=i_temp+30;
-        elsif i_temp<"000001000110" then -- <70
-        i_bcd:=i_temp+36;
-        elsif i_temp<"000001010000" then -- <80
-        i_bcd:=i_temp+42;
-        elsif i_temp<"000001011010"then -- <90
-        i_bcd:=i_temp+48;
-        elsif i_temp<"000001100100"then -- <100 
-        i_bcd:=i_temp+54;
-        else
-        i_bcd:="100010001000";
-        end if;
+      if i_temp<"000000001010" then -- <10
+         i_bcd:=i_temp;
+      elsif i_temp<"000000010100" then -- <20
+         i_bcd:=i_temp+6;
+      elsif i_temp<"000000011110" then -- <30
+         i_bcd:=i_temp+12;
+      elsif i_temp<"000000101000"then -- <40
+         i_bcd:=i_temp+18;
+      elsif i_temp<"000000110010"then -- <50
+         i_bcd:=i_temp+24;
+      elsif i_temp<"000000111100" then -- <60
+         i_bcd:=i_temp+30;
+      elsif i_temp<"000001000110" then -- <70
+         i_bcd:=i_temp+36;
+      elsif i_temp<"000001010000" then -- <80
+         i_bcd:=i_temp+42;
+      elsif i_temp<"000001011010"then -- <90
+         i_bcd:=i_temp+48;
+      elsif i_temp<"000001100100"then -- <100 
+         i_bcd:=i_temp+54;
+      else
+         i_bcd:="100010001000";
+      end if;
 
 		-- 7 Parçalı Gösterge Yazdırma İşemi
 		if an="1110" then --anot0
@@ -183,4 +183,3 @@ begin
 
 	end process;
 end Behavioral;
-
