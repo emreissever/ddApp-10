@@ -24,7 +24,7 @@ Ardı ardına sürekli ölçümler yapabilmek için Basys3 kartının 100 MHz te
 
 $$
 \frac{100 \, MHz}{6000000} = 16.6667 \, Hz \approx \frac{1}{60 \, ms}
-\quad
+\qquad
 \frac{8 \, m \, (800cm)}{340 \, m/s \, (ses \, hızı)} \approx 23.53 \, ms
 $$
 
@@ -50,13 +50,17 @@ Bu noktada devreye [BCD (Binary Coded Decimal)](https://en.wikipedia.org/wiki/Bi
 
 Binary olarak elde edilen ve i_tmp değişkeni içerisinde tutulan mesafe verisi [Double Dabble Algoritması](https://en.wikipedia.org/wiki/Double_dabble) kullanılarak BCD değere çevrilmiştir. 
 
+<div align="center">
 <img src="result.jpg" alt="Sonuç" width="800">
+</div>
 
 Yukarıdaki görselde Trig bacağı yüksek seviyeye çekilerek ses dalgasının gönderildiği ve ses dalgası bir cisme çarpıp gelene kadar Echo pininin yüksek seviyesini koruduğu [Digilent WaveForms](https://digilent.com/reference/software/waveforms/waveforms-3/start?srsltid=AfmBOop_nxzSJkoRYtEvFg38hSNb2jKRSgCMRWUAdjtkmqXGpfuXZ-_S) arayüzünde [Analog Discovery 2](https://digilent.com/shop/analog-discovery-2-100ms-s-usb-oscilloscope-logic-analyzer-and-variable-power-supply/?srsltid=AfmBOoqU0xFMJj_oj6RW44gU6BHhybUUNaGA0Ki_hlSGw-6oPYG5ns39) kullanılarak yapılan ölçüm sonucu gözükmektedir
 
 ### Bağlantı Şeması 
 
+<div align="center">
 <img src="pinout.png" alt="Şematik" width="800">
+</div>
 
 ## Kodun Çalıştırılması
 
