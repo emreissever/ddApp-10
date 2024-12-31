@@ -62,8 +62,6 @@ Yukarıdaki görselde Trig bacağı yüksek seviyeye çekilerek ses dalgasının
 <img src="pinout.png" alt="Şematik" width="800">
 </div>
 
-## Kodun Çalıştırılması
+## Çıktıların Gözlenmesi
 
-1.	ddApp-10 Uygulama setinin üzerindeki ULTRASONIC isimli modülün DIP-SWITCH-3 isimli anahtarın tamamını aktif hale getiriniz ve bitstream doyasını Basys3 kartına yükleyiniz.
-2.	BU UYGULAMA YAPILIRKEN, SETİN 5V BESLEMESİNİN TAKILI OLDUĞUNDAN EMİN OLUN.
-3.	Deney setinde ultrasonik sensörün bulunduğu kısmın üzerine bir defter gibi yüze alanı büyük bir cisim ile yaklaşıp uzaklaşırsanız sensör ile defter arasındaki mesafenin santimetre cinsinden uzaklığını Basys3 kartı üzerinde 7 parçalı göstergede görebilirsiniz. 
+Deney setinde ultrasonik sensörün bulunduğu kısmın üzerine bir defter gibi yüze alanı büyük bir cisim ile yaklaşıp uzaklaşırsanız sensör ile defter arasındaki mesafenin santimetre cinsinden uzaklığını Basys3 kartı üzerinde 7 parçalı göstergede görebilirsiniz. 

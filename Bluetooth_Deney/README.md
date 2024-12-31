@@ -29,12 +29,8 @@ serialport.vhd
 
 FPGA çalışma gerilimi ile Bluetooth modülünün çalışma gerilimi farkından dolayı araya bir **Logic Level Converter** konulmuştur. 
 
-## Kodun Çalıştırılması 
+## Beklenen Çıktılar
 
-Deneyin Yapılışı 
-1.	Uygulama setinin harici güç adaptörünün takınız.
-2.	Uygulama seti üzerindeki BLUETOOTH isimli modülün DIP SWITCH-4 isimli anahtarın tümü aktif hale getirilmelidir.
-3.	Daha sonra projenin .bit uzantılı dosyasını FPGA kartına yazdırın.
-4.	Mobil telefonunuzdan veya tabletinizden "HC-05" ismindeki bluetooth cihazı ile eşleşin, şifreye varsayılan olarak "1234" girilmelidir. 
-5.	Mobil telefonunuza veya tabletinize herhangi bir Bluetooth Seri Haberleşme (Terminal) uygulaması indiriniz ve HC-05 ile haberleşmek üzere eşleşin.
-6.	Eşleşme başarıyla tamamlandıktan sonra seri haberleşme uygulamasından "1" karakterini gönderdiğinizde Basys3 üzerindeki LD0 isimli ledin yandığını göreceksiniz. "0" karakterini göndermeniz durumunda aynı led sönecektir. 
+1. Mobil telefonunuzdan veya tabletinizden "HC-05" ismindeki bluetooth cihazı ile eşleşin, şifreye varsayılan 2.olarak "1234" girilmelidir. 
+2. Mobil telefonunuza veya tabletinize herhangi bir Bluetooth Seri Haberleşme (Terminal) uygulaması indiriniz ve HC-05 ile haberleşmek üzere eşleşin.
+3. Eşleşme başarıyla tamamlandıktan sonra seri haberleşme uygulamasından "1" karakterini gönderdiğinizde Basys3 üzerindeki LD0 isimli ledin yandığını göreceksiniz. "0" karakterini göndermeniz durumunda aynı led sönecektir. 
